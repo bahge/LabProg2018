@@ -1,3 +1,24 @@
+/**
+ * @file    index.c
+ * @author  Leandro Costa Garcia
+ * @data    02/dez/2018
+ *
+ * @brief   Resolução do exercício 01
+ * 
+ * Exercicio 01 is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+ * 
+ * Exercicio 01 is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with Exercicio 01. If not, see https://www.gnu.org/licenses/.
+ * 
+ */
 #include <stdio.h>
 #include <stdbool.h>
 #include "tabelasReferencia.h"
@@ -23,6 +44,7 @@ void main () {
            printf("Código não encontrado\nFavor digite um valor entre 1 e 40\n"); 
         }
     }
+    // Reaproveitamento da variável opcao para teste do valor da quantidade de produto
     opcao = true;
     while( opcao ){
         printf("\E[34mFavor digitar a quantidade de produto\E[0m\n");
