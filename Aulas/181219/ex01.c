@@ -1,6 +1,6 @@
 /*
 * Nome: Leandro Costa Garcia
-* RGA: 201811316013
+* RGA:
 *
 * Base do exercício ex01.md
 */
