@@ -1,4 +1,4 @@
-# Exercício 05  
+# Exercício 07  
   
 Utilizando a linguagem C criar um programa que contenha um registro "TProduto" com os seguintes campos: código (inteiro), nome (vetor de char), estoque (inteiro), valor (float).  
   
