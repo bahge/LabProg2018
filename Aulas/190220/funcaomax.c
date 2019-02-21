@@ -20,8 +20,10 @@ int MaxNum(int tamVet){
 
 void main(){
     int posVetor;
-    int numMaxSorteado = 50;
+    int numMaxSorteado = 500;
     int valor;
+
+    srand(time(0));
 
     for(posVetor = 0; posVetor < 30; posVetor++)
     {
