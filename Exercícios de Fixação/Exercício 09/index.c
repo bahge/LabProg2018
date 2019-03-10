@@ -25,21 +25,28 @@
 #include "numeroaleatorio.h"
 
 int v[30];
+int maior;
 
 int checkNumber(int position){
-	if (position == 30) {
-		return 
-	}
+
+    if ( position < 0 ) {
+        return 0;
+    } else {
+        maior = checkNumber ( position - 1 );
+        if ( v[position] > maior ){
+            maior = v[position];
+        }
+        return maior;
+    }
 	
 }
 
 void main() {
 	int position;
-	int vmax;
+	int vmax = 30;
+	int max_value;
 
 	srand(time(0));
-
-	vmax = 30;
 
 	for(position = 1; position < 31; position++)
 	{
@@ -48,7 +55,15 @@ void main() {
 	
 	for(position = 1; position < 31; position++)
 	{
-		printf("Valor de %d: %d \n", position, v[position]);
+		if ( ( position % 5) == 0 ) {
+			printf("%d \n", v[position]);
+		} else {
+			printf("%d \t", v[position]);
+		}
 	}
+
+	max_value = checkNumber(29);
+
+	printf("Maior: %d\n", max_value);
 	
 }
