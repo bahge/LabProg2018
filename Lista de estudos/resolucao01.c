@@ -1,5 +1,5 @@
 /**
- * @file    resolicao01.c
+ * @file    resolucao01.c
  * @author  Leandro Costa Garcia
  * @data    20/fev/2019
  *
