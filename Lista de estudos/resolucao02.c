@@ -18,10 +18,11 @@
  * You should have received a copy of the GNU General Public License
  * along with Resolução 02. If not, see https://www.gnu.org/licenses/.
  * 
- * Faça   um   algoritmo   que   receba   dois   valores   e   retorne 
- * todos   os   números   inteiros compreendidos entre eles. O algoritmo
- * deve estar preparado para o caso do primeiro número ser maior do que
- * o segundo e vice-versa.
+ * Escreva uma função que faça comparação entre dois números inteiros (a e b)
+ * e retorne:
+ * 1: caso o número “a” seja maior;
+ * -1: caso o número “b” seja maior;
+ * 0: caso “a” e “b” sejam iguais.
  * 
  */
 #include <stdio.h>
