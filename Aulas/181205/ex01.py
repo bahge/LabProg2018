@@ -49,8 +49,8 @@ print("%s, matricula n. %d curso %s e coeficiente %.2f" %(nome, rga, curso, cr))
 print("{0}, matricula n. {1} curso {2} e coeficiente {3}" .format(nome, rga, curso, cr))
 
 #entrada de dados "scanf"
-numero=int(input("Rascunha um número tchê"))
+numero=int(input("Rascunha um número ai, tchê: "))
 
 if (numero > 10):
     print("Você digitou um n. maior que 10")
-    outro_numero=input("Digite outro número")
+    outro_numero=input("Digite outro número: ")
